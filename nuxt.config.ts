@@ -4,6 +4,10 @@ const path = require('path')
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
+  routeRules: {
+    '/': { prerender: true },
+    '/docs/**': { prerender: true },
+  },
   css: ['~/assets/styles/basic.scss'],
   modules: ['@nuxtjs/tailwindcss'],
   build: {
