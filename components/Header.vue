@@ -1,7 +1,7 @@
 <template>
   <header
     class="sticky top-0 left-0 z-20 | flex items-center | py-3 px-10 | bg-white shadow-md">
-    <a href="/" class="flex items-center gap-2 py-1">
+    <a href="/mm-guide" class="flex items-center gap-2 py-1">
       <Logo />
       <span class="font-black text-slate-800">MM-GUIDE</span>
     </a>

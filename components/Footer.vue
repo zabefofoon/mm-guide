@@ -4,7 +4,7 @@
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="font-bold text-xl">
-            <a href="/">MM-GUIDE</a>
+            <a href="/mm-guide">MM-GUIDE</a>
           </h2>
           <p>Guide for Mark up manager</p>
         </div>
