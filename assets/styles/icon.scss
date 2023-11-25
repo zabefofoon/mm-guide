@@ -1,0 +1,36 @@
+@mixin generateIcon($src) {
+    -webkit-mask-image: url($src);
+    mask-image: url($src);
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    background-color: currentColor;
+  }
+  
+  .icon-arrow-right {
+    @include generateIcon(
+      'https://api.iconify.design/ic/baseline-arrow-forward-ios.svg'
+    );
+  }
+  
+  .icon-arrow-top {
+    @include generateIcon(
+      'https://api.iconify.design/ic/baseline-keyboard-arrow-up.svg'
+    );
+  }
+  
+  .icon-youtube {
+    @include generateIcon('https://api.iconify.design/basil/youtube-solid.svg');
+  }
+  
+  .icon-twitter {
+    @include generateIcon('https://api.iconify.design/mdi/twitter.svg');
+  }
+  
