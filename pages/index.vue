@@ -8,18 +8,18 @@
         </h2>
         <p class="text-2xl text-slate-500">Make layouts and add widgets.</p>
         <div class="flex gap-4 items-center justify-center">
-          <a href="https://zabefofoon.github.io/mm-embedded/#/" target="_blank">
+          <a href="https://zabefofoon.github.io/mm-embedded/" target="_blank">
             <button
               class="bg-slate-400 hover:bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
               Get Started
             </button>
           </a>
-          <router-link to="/docs">
+          <a href="/mm-guide/documents">
             <button
               class="bg-slate-400 hover:bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
               Docs
             </button>
-          </router-link>
+          </a>
         </div>
       </div>
     </section>

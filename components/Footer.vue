@@ -4,7 +4,7 @@
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="font-bold text-xl">
-            <router-link to="/">MM-GUIDE</router-link>
+            <a href="/">MM-GUIDE</a>
           </h2>
           <p>Guide for Mark up manager</p>
         </div>
@@ -21,14 +21,14 @@
       <ul class="flex flex-col gap-1">
         <li class="text-sm">
           <a
-            href="https://zabefofoon.github.io/mm-embedded/#/"
+            href="https://zabefofoon.github.io/mm-embedded/"
             target="_blank"
             class="underline">
             Get Started
           </a>
         </li>
         <li class="text-sm">
-          <router-link to="/docs" class="underline"> Docs </router-link>
+          <a href="/mm-guide/documents" class="underline"> Docs </a>
         </li>
       </ul>
       <div class="flex flex-col gap-1">
