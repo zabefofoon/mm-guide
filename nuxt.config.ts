@@ -30,4 +30,7 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, '/docs'),
     },
   },
+  experimental: {
+    payloadExtraction: false
+  }
 })
