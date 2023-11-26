@@ -1,7 +1,7 @@
 <template>
   <aside class="w-60 | border-r">
     <nav class="sticky top-14 left-0">
-      <ul class="flex flex-col gap-4 | p-4">
+      <ul class="flex flex-col gap-4 | py-8">
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
           <RouterLink :to="menu.link">
             <span class="font-bold text-slate-800">{{ menu.name }}</span>
@@ -32,17 +32,17 @@ type Menu = {
 
 const menus: Menu[] = [
   {
-    name: 'Instruction',
+    name: 'Introduction',
     link: '/documents',
     children: [
       {
         name: 'What is MM?',
-        link: '/documents/instruction#WhatIsMM',
+        link: '/documents/introduction#WhatIsMM',
         id: 'WhatIsMM',
       },
       {
         name: 'History',
-        link: '/documents/instruction#History',
+        link: '/documents/introduction#History',
         id: 'History',
       },
     ],

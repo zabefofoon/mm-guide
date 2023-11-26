@@ -3,12 +3,11 @@
     <ClientOnly>
       <NuxtPage />
     </ClientOnly>
-    
   </NuxtLayout>
 </template>
 
 <script setup lang="ts">
-navigateTo('/documents/instruction', {replace: true})
+navigateTo('/documents/introduction', { replace: true })
 </script>
 
 <style></style>

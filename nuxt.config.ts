@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/': { prerender: true },
     '/documents': { prerender: true },
-    '/documents/instruction': { prerender: true },
+    '/documents/introduction': { prerender: true },
   },
   nitro: {
     output: {
