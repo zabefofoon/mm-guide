@@ -1,8 +1,8 @@
 <template>
   <Header />
-  <div class="flex">
+  <div class="flex | max-w-[1200px] | mx-auto">
     <DocsMenus />
-    <slot></slot>
+    <slot />
   </div>
   <Footer />
 </template>

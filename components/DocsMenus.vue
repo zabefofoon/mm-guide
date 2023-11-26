@@ -1,5 +1,5 @@
 <template>
-  <aside class="w-60 | border">
+  <aside class="w-60 | border-r">
     <nav class="sticky top-14 left-0">
       <ul class="flex flex-col gap-4 | p-4">
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
@@ -11,7 +11,7 @@
               v-for="child in menu.children"
               :key="menu.name"
               :to="child.link">
-              <li>
+              <li class="text-slate-800">
                 {{ child.name }}
               </li>
             </RouterLink>
@@ -23,13 +23,28 @@
 </template>
 
 <script setup lang="ts">
-const menus = [
+type Menu = {
+  name: string
+  link: string
+  id?: string
+  children?: Menu[]
+}
+
+const menus: Menu[] = [
   {
     name: 'Instruction',
     link: '/documents',
     children: [
-      { name: 'What is MM?', link: '/documents/instruction#WhatIsMM' },
-      { name: 'History', link: '/documents/instruction#History' },
+      {
+        name: 'What is MM?',
+        link: '/documents/instruction#WhatIsMM',
+        id: 'WhatIsMM',
+      },
+      {
+        name: 'History',
+        link: '/documents/instruction#History',
+        id: 'History',
+      },
     ],
   },
   {
