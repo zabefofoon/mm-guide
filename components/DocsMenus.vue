@@ -5,14 +5,14 @@
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
           <span class="font-bold text-slate-800">{{ menu.name }}</span>
           <ul class="px-2">
-            <NuxtPage
+            <RouterLink
               v-for="child in menu.children"
               :key="menu.name"
               :to="child.link">
               <li>
                 {{ child.name }}
               </li>
-            </NuxtPage>
+            </RouterLink>
           </ul>
         </li>
       </ul>
@@ -34,16 +34,16 @@ const menus = [
     name: 'Menual',
     link: '/documents',
     children: [
-      { name: 'Layouts', link: '/documents' },
-      { name: 'Widgets', link: '/documents' },
+      { name: 'Layouts', link: '/' },
+      { name: 'Widgets', link: '/' },
     ],
   },
   {
     name: 'Embedded',
     link: '/documents',
     children: [
-      { name: 'Options', link: '/documents' },
-      { name: 'Events', link: '/documents' },
+      { name: 'Options', link: '/' },
+      { name: 'Events', link: '/' },
     ],
   },
 ]
