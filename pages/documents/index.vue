@@ -1,9 +1,14 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <NuxtPage />
+    <ClientOnly>
+      <NuxtPage />
+    </ClientOnly>
+    
   </NuxtLayout>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+navigateTo('/documents/instruction', {replace: true})
+</script>
 
 <style></style>
