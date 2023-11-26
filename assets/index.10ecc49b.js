@@ -1,1 +1,0 @@
-import{_ as n,n as e,w as _,o as c,b as a,q as s}from"./entry.1ef71923.js";import{_ as r}from"./nuxt-layout.2d212005.js";const m={};function u(p,x){const t=s,o=r;return c(),e(o,{name:"layout-documents"},{default:_(()=>[a(t)]),_:1})}const i=n(m,[["render",u]]);export{i as default};
