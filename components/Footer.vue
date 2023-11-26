@@ -4,7 +4,7 @@
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="font-bold text-xl">
-            <router-link to="/">MM-GUIDE</router-link>
+            <NuxtLink to="/">MM-GUIDE</NuxtLink>
           </h2>
           <p>Guide for Mark up manager</p>
         </div>
@@ -28,7 +28,7 @@
           </a>
         </li>
         <li class="text-sm">
-          <router-link to="/documents" class="underline"> Docs </router-link>
+          <NuxtLink to="/documents" class="underline"> Docs </NuxtLink>
         </li>
       </ul>
       <div class="flex flex-col gap-1">

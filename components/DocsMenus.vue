@@ -5,14 +5,14 @@
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
           <span class="font-bold text-slate-800">{{ menu.name }}</span>
           <ul class="px-2">
-            <RouterLink
+            <NuxtPage
               v-for="child in menu.children"
               :key="menu.name"
               :to="child.link">
               <li>
                 {{ child.name }}
               </li>
-            </RouterLink>
+            </NuxtPage>
           </ul>
         </li>
       </ul>
