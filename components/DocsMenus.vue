@@ -48,7 +48,7 @@ const menus: Menu[] = [
     ],
   },
   {
-    name: 'Menual',
+    name: 'How to use',
     link: '/documents',
     children: [
       { name: 'Layouts', link: '/' },
