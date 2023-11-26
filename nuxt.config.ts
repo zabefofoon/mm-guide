@@ -17,16 +17,17 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: '/mm-guide/', // baseURL: '/<repository>/'
-    buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
+    baseURL: '/mm-guide/',
+    buildAssetsDir: 'assets',
   },
   routeRules: {
     '/': { prerender: true },
-    '/documents': { prerender: true }
+    '/documents': { prerender: true },
+    '/documents/instruction': { prerender: true },
   },
   nitro: {
     output: {
       publicDir: path.join(__dirname, '/docs'),
-    }
+    },
   },
 })

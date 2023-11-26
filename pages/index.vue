@@ -14,12 +14,12 @@
               Get Started
             </button>
           </a>
-          <a href="/mm-guide/documents">
+          <router-link to="/mm-guide/documents">
             <button
               class="bg-slate-400 hover:bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
               Docs
             </button>
-          </a>
+          </router-link>
         </div>
       </div>
     </section>

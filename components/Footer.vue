@@ -4,7 +4,7 @@
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="font-bold text-xl">
-            <a href="/mm-guide">MM-GUIDE</a>
+            <router-link to="/">MM-GUIDE</router-link>
           </h2>
           <p>Guide for Mark up manager</p>
         </div>
@@ -28,7 +28,7 @@
           </a>
         </li>
         <li class="text-sm">
-          <a href="/mm-guide/documents" class="underline"> Docs </a>
+          <router-link to="/documents" class="underline"> Docs </router-link>
         </li>
       </ul>
       <div class="flex flex-col gap-1">

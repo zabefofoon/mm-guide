@@ -5,9 +5,14 @@
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
           <span class="font-bold text-slate-800">{{ menu.name }}</span>
           <ul class="px-2">
-            <li v-for="child in menu.children" :key="menu.name">
-              {{ child.name }}
-            </li>
+            <RouterLink
+              v-for="child in menu.children"
+              :key="menu.name"
+              :to="child.link">
+              <li>
+                {{ child.name }}
+              </li>
+            </RouterLink>
           </ul>
         </li>
       </ul>
@@ -19,26 +24,26 @@
 const menus = [
   {
     name: 'Instruction',
-    link: '/docs',
+    link: '/documents',
     children: [
-      { name: 'What is MM', link: '/docs' },
-      { name: 'History', link: '/docs' },
+      { name: 'What is MM?', link: '/documents/instruction#WhatIsMM' },
+      { name: 'History', link: '/documents/instruction#History' },
     ],
   },
   {
     name: 'Menual',
-    link: '/docs',
+    link: '/documents',
     children: [
-      { name: 'Layouts', link: '/docs' },
-      { name: 'Widgets', link: '/docs' },
+      { name: 'Layouts', link: '/documents' },
+      { name: 'Widgets', link: '/documents' },
     ],
   },
   {
     name: 'Embedded',
-    link: '/docs',
+    link: '/documents',
     children: [
-      { name: 'Options', link: '/docs' },
-      { name: 'Events', link: '/docs' },
+      { name: 'Options', link: '/documents' },
+      { name: 'Events', link: '/documents' },
     ],
   },
 ]
