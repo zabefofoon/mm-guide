@@ -3,7 +3,9 @@
     <nav class="sticky top-14 left-0">
       <ul class="flex flex-col gap-4 | p-4">
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
-          <span class="font-bold text-slate-800">{{ menu.name }}</span>
+          <RouterLink :to="menu.link">
+            <span class="font-bold text-slate-800">{{ menu.name }}</span>
+          </RouterLink>
           <ul class="px-2">
             <RouterLink
               v-for="child in menu.children"

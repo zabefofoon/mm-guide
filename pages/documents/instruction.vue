@@ -1,6 +1,13 @@
 <template>
   <NuxtLayout name="layout-documents">
     <main class="w-full min-h-screen | p-4">
+      <ul class="flex gap-2">
+        <li><RouterLink to="/">Home</RouterLink></li>
+        <li>></li>
+        <li><RouterLink to="/documents">Documents</RouterLink></li>
+        <li>></li>
+        <li><RouterLink to="/documents/instruction">Instruction</RouterLink></li>
+      </ul>
       <section style="height: 1200px">
         <h2 id="WhatIsMM" class="text-3xl pt-20">What is MM?</h2>
         <p>MM in Mark up manager for HTML and CSS.</p>
