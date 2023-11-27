@@ -49,18 +49,34 @@ const menus: Menu[] = [
   },
   {
     name: 'How to use',
-    link: '/documents',
+    link: '/documents/howToUse',
     children: [
-      { name: 'Layouts', link: '/' },
-      { name: 'Widgets', link: '/' },
+      {
+        name: 'Layouts',
+        link: '/documents/howToUse#Layouts',
+        id: 'Layouts',
+      },
+      {
+        name: 'Widgets',
+        link: '/documents/howToUse#Widgets',
+        id: 'Widgets',
+      },
     ],
   },
   {
     name: 'Embedded',
-    link: '/documents',
+    link: '/documents/embedded',
     children: [
-      { name: 'Options', link: '/' },
-      { name: 'Events', link: '/' },
+      {
+        name: 'Options',
+        link: '/documents/embedded#Options',
+        id: 'Options',
+      },
+      {
+        name: 'Events',
+        link: '/documents/embedded#Events',
+        id: 'Events',
+      },
     ],
   },
 ]

@@ -24,6 +24,8 @@ export default defineNuxtConfig({
     '/': { prerender: true },
     '/documents': { prerender: true },
     '/documents/introduction': { prerender: true },
+    '/documents/howToUse': { prerender: true },
+    '/documents/embedded': { prerender: true },
   },
   nitro: {
     output: {
