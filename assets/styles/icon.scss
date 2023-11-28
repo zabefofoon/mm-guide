@@ -34,3 +34,46 @@
     @include generateIcon('https://api.iconify.design/mdi/twitter.svg');
   }
   
+  .icon-select {
+    @include generateIcon('https://api.iconify.design/material-symbols/gesture-select.svg')
+  }
+
+  .icon-plus {
+    @include generateIcon('https://api.iconify.design/mdi/plus.svg')
+  }
+
+  .icon-arrow-up {
+    @include generateIcon('https://api.iconify.design/ph/arrow-up-light.svg')
+  }
+
+  .icon-child {
+    @include generateIcon('https://api.iconify.design/clarity/child-arrow-line.svg')
+  }
+
+  .icon-trash {
+    @include generateIcon('https://api.iconify.design/mdi/trash-outline.svg')
+  }
+
+  .icon-copy {
+    @include generateIcon('https://api.iconify.design/material-symbols/copy-all-sharp.svg');
+  }
+  
+  .icon-cut {
+    @include generateIcon('https://api.iconify.design/material-symbols/cut.svg');
+  }
+  
+  .icon-paste {
+    @include generateIcon('https://api.iconify.design/material-symbols/content-paste.svg');
+  }
+
+  .icon-add-widget {
+    @include generateIcon('https://api.iconify.design/solar/widget-add-outline.svg')
+  }
+  
+  .icon-marker {
+    @include generateIcon('https://api.iconify.design/clarity/map-marker-line.svg')
+  }
+
+  .icon-line {
+    @include generateIcon('https://api.iconify.design/uil/line-alt.svg')
+  }

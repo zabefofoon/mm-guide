@@ -89,7 +89,7 @@
           <span class="font-bold">Componentization</span>
           <br />
           The majority of front-end engineers utilize technologies like React or
-          Vue for component-based development (CBD). Reflecting this trend, MM
+          Vue for component-based development(CBD). Reflecting this trend, MM
           supports planners and markup developers in conceptualizing screens in
           a component-oriented manner.
         </p>
