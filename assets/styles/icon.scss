@@ -102,3 +102,50 @@
     @include generateIcon('https://api.iconify.design/mdi/content-save-all-outline.svg');
   }
   
+  .icon-upload {
+    @include generateIcon('https://api.iconify.design/material-symbols/file-open-outline.svg')
+  }
+  
+  .icon-screen-xl {
+    @include generateIcon('https://api.iconify.design/mdi/size-xl.svg')
+  }
+  
+  .icon-screen-l {
+    @include generateIcon('https://api.iconify.design/mdi/size-l.svg')
+  }
+  
+  .icon-screen-m {
+    @include generateIcon('https://api.iconify.design/mdi/size-m.svg')
+  }
+  
+  .icon-screen-s {
+    @include generateIcon('https://api.iconify.design/mdi/size-s.svg')
+  }
+
+  .icon-spacing {
+    @include generateIcon('https://api.iconify.design/mdi/format-paragraph-spacing.svg')
+  }
+  
+  .icon-outline {
+    @include generateIcon('https://api.iconify.design/mdi/border-none-variant.svg')
+  }
+
+  .icon-hidden {
+    @include generateIcon('https://api.iconify.design/mdi/file-hidden.svg')
+  }
+  
+  .icon-marker {
+    @include generateIcon('https://api.iconify.design/clarity/map-marker-line.svg')
+  }
+
+  .icon-html {
+    @include generateIcon('https://api.iconify.design/material-symbols/html.svg')
+  }
+
+  .icon-json {
+    @include generateIcon('https://api.iconify.design/carbon/json.svg')
+  }
+  
+  .icon-analyze {
+    @include generateIcon('https://api.iconify.design/mdi/table-eye.svg')
+  }

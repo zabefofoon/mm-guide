@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <main class="w-full min-h-screen | py-8 px-12 | border-r">
+    <main class="w-full min-h-screen | pt-8 pb-40 px-12 | border-r">
       <DocsBreadcrumb name="How to use" link="/documents/howToUse" />
       <DocsSection id="Layouts">
         <h2 class="text-3xl font-bold">Layouts</h2>
@@ -43,10 +43,12 @@
           Clicking this button displays the widget configuration window, where
           you can input the widget's name, description, HTML, and CSS.
         </p>
+        <br />
         <HowToUseWidgets />
       </DocsSection>
-      <DocsSection style="height: 1200px" id="Utils">
+      <DocsSection id="Utils">
         <h2 class="text-3xl font-bold">Utils</h2>
+        <HowToUseUtils />
       </DocsSection>
     </main>
   </NuxtLayout>
