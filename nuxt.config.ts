@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/mm-guide/',
     buildAssetsDir: 'assets',
+    head: {
+      link: [{ rel: 'icon', type: 'image/x-icon', href: "/mm-guide/public/favicon.ico" }]
+  },
   },
   routeRules: {
     '/': { prerender: true },
