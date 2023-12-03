@@ -62,4 +62,11 @@
 <script setup lang="ts">
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
+
+useSeoMeta({
+  title: 'MM-GUIDE',
+  ogTitle: 'MM-GUIDE',
+  description: 'Mark up manager guide page',
+  ogDescription: 'Mark up manager guide page',
+})
 </script>

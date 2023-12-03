@@ -61,6 +61,11 @@ const menus: Menu[] = [
         link: '/documents/howToUse#Widgets',
         id: 'Widgets',
       },
+      {
+        name: 'Utils',
+        link: '/documents/howToUse#Utils',
+        id: 'Utils',
+      },
     ],
   },
   {

@@ -34,9 +34,19 @@
           size.
         </p>
       </DocsSection>
-      <DocsSection style="height: 1200px" id="Widgets">
+      <DocsSection id="Widgets">
         <h2 class="text-3xl font-bold">Widgets</h2>
-        <p>MM in Mark up manager for HTML and CSS.</p>
+        <p>
+          <button class="py-1 px-2 | rounded-full bg-blue-500 text-white">
+            <i class="icon icon-grid"></i>
+          </button>
+          Clicking this button displays the widget configuration window, where
+          you can input the widget's name, description, HTML, and CSS.
+        </p>
+        <HowToUseWidgets />
+      </DocsSection>
+      <DocsSection style="height: 1200px" id="Utils">
+        <h2 class="text-3xl font-bold">Utils</h2>
       </DocsSection>
     </main>
   </NuxtLayout>
@@ -47,10 +57,10 @@ import DocsBreadcrumb from '~/components/DocsBreadcrumb.vue'
 import DocsSection from '~/components/DocsSection.vue'
 
 useSeoMeta({
-  title: 'GUIDE | HowToUse',
-  ogTitle: 'GUIDE | HowToUse',
-  description: 'GUIDE HowToUse',
-  ogDescription: 'GUIDE HowToUse',
+  title: 'MM-GUIDE | HowToUse',
+  ogTitle: 'MM-GUIDE | HowToUse',
+  description: 'MM-GUIDE HowToUse',
+  ogDescription: 'MM-GUIDE HowToUse',
 })
 </script>
 

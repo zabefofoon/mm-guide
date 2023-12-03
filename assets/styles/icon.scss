@@ -77,3 +77,28 @@
   .icon-line {
     @include generateIcon('https://api.iconify.design/uil/line-alt.svg')
   }
+
+  .icon-grid {
+    @include generateIcon('https://api.iconify.design/material-symbols/grid-view.svg');
+  }
+
+  .icon-add {
+    @include generateIcon('https://api.iconify.design/material-symbols/add-circle-outline.svg');
+  }
+
+  .icon-widgets {
+    @include generateIcon('https://api.iconify.design/material-symbols/widgets-outline.svg');
+  }
+
+  .icon-bullet {
+    @include generateIcon('https://api.iconify.design/zondicons/list-bullet.svg');
+  }
+  
+  .icon-code {
+    @include generateIcon('https://api.iconify.design/material-symbols/code.svg');
+  }
+
+  .icon-save {
+    @include generateIcon('https://api.iconify.design/mdi/content-save-all-outline.svg');
+  }
+  
