@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <main class="w-full min-h-screen | pt-8 pb-40 px-12 | border-r">
+    <main class="w-full min-h-screen | pt-8 pb-40 px-4 md:px-12 | border-r">
       <DocsBreadcrumb name="Introduction" link="/documents/introduction" />
       <DocsSection id="WhatIsMM">
         <h2 class="text-3xl font-bold">What is MM?</h2>
@@ -94,6 +94,14 @@
           a component-oriented manner.
         </p>
       </DocsSection>
+      <div class="flex | mt-20 md:mt-40">
+        <NuxtLink
+          class="flex items-center gap-2 | ml-auto | text-sm"
+          to="/documents/howToUse">
+          <span>How to use</span>
+          <i class="icon icon-arrow-right text-xs"></i>
+        </NuxtLink>
+      </div>
     </main>
   </NuxtLayout>
 </template>

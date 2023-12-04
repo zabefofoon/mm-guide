@@ -2,28 +2,33 @@
   <Header />
   <main>
     <section>
-      <div class="flex flex-col gap-8 | py-40 | text-center">
-        <h2 class="text-4xl font-bold text-slate-800">
+      <div
+        class="flex flex-col md:gap-8 | px-4 md:px-0 py-20 pt-40 md:py-40 | lg:text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-800">
           Markup manager for HTML&CSS
         </h2>
-        <p class="text-2xl text-slate-500">Make layouts and add widgets.</p>
-        <div class="flex gap-4 items-center justify-center">
+        <p class="mt-4 md:mt-0 | text-xl md:text-2xl text-slate-500">
+          Make layouts and add widgets.
+        </p>
+        <div
+          class="mt-8 md:mt-0 | flex flex-col md:flex-row gap-3 md:gap-4 md:items-center justify-center">
           <a href="https://zabefofoon.github.io/mm-embedded/" target="_blank">
             <button
-              class="bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
+              class="w-full | bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
               Get Started
             </button>
           </a>
           <NuxtLink to="/documents">
             <button
-              class="bg-slate-400 hover:bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
+              class="w-full | border border-slate-500 hover:bg-slate-800 | px-6 py-2 | rounded-full | text-slate-500 font-bold md:hover:text-white">
               Docs
             </button>
           </NuxtLink>
         </div>
       </div>
     </section>
-    <section class="grid grid-cols-4 gap-12 | w-fit | mx-auto py-40 | border-t">
+    <section
+      class="grid grid-cols-1 lg:grid-cols-4 gap-12 | w-fit | mx-auto py-20 px-4 md:px-0 md:py-40 | border-t">
       <div class="flex flex-col gap-4 lg:max-w-[300px]">
         <h4 class="font-bold text-slate-800">Intuitive</h4>
         <p class="text-slate-500">

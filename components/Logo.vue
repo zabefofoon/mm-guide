@@ -25,11 +25,19 @@
     filter: blur(5px);
 
     &.big {
-      width: 24px;
+      width: 20px;
       transform: translate(0px, 1px);
+
+      @media (min-width: 768px) {
+        width: 24px;
+      }
     }
 
     &.small {
+      width: 16px;
+    }
+
+    @media (min-width: 768px) {
       width: 20px;
     }
   }

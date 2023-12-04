@@ -1,8 +1,6 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <ClientOnly>
-      <NuxtPage />
-    </ClientOnly>
+    <NuxtPage />
   </NuxtLayout>
 </template>
 

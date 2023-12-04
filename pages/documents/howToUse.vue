@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <main class="w-full min-h-screen | pt-8 pb-40 px-12 | border-r">
+    <main class="w-full min-h-screen | pt-8 pb-40 px-4 md:px-12 | border-r">
       <DocsBreadcrumb name="How to use" link="/documents/howToUse" />
       <DocsSection id="Layouts">
         <h2 class="text-3xl font-bold">Layouts</h2>
@@ -12,10 +12,14 @@
         </p>
         <br />
         <p class="font-bold">Create Node</p>
-        <HowToUseCreateNode />
+        <div class="overflow-auto">
+          <HowToUseCreateNode />
+        </div>
         <br />
         <p class="font-bold">Config Node</p>
-        <HowToUseConfigNode />
+        <div class="overflow-auto">
+          <HowToUseConfigNode />
+        </div>
         <br />
         <p class="leading-relaxed">
           <span class="font-bold">Responsive Field</span><br />
@@ -44,12 +48,28 @@
           you can input the widget's name, description, HTML, and CSS.
         </p>
         <br />
-        <HowToUseWidgets />
+        <div class="overflow-auto">
+          <HowToUseWidgets />
+        </div>
       </DocsSection>
       <DocsSection id="Utils">
         <h2 class="text-3xl font-bold">Utils</h2>
-        <HowToUseUtils />
+        <div class="overflow-auto">
+          <HowToUseUtils />
+        </div>
       </DocsSection>
+      <div class="flex | mt-20 md:mt-40">
+        <NuxtLink class="flex items-center gap-2 | text-sm" to="/documents">
+          <i class="icon icon-arrow-left text-xs"></i>
+          <span>Introduction</span>
+        </NuxtLink>
+        <NuxtLink
+          class="flex items-center gap-2 | ml-auto | text-sm"
+          to="/documents/embedded">
+          <span>Embedded</span>
+          <i class="icon icon-arrow-right text-xs"></i>
+        </NuxtLink>
+      </div>
     </main>
   </NuxtLayout>
 </template>

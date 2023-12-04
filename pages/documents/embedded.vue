@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <main class="w-full min-h-screen | pt-8 pb-40 px-12 | border-r">
+    <main class="w-full min-h-screen | pt-8 pb-40 px-4 md:px-12 | border-r">
       <DocsBreadcrumb name="Embedded" link="/documents/embedded" />
       <DocsSection>
         <p>
@@ -13,17 +13,31 @@
       </DocsSection>
       <DocsSection id="Options">
         <h2 class="text-3xl">Options</h2>
-        <input
-          class="break-all text-sm | bg-slate-100 | p-2"
-          readonly
-          value="https://zabefofoon.github.io/mm-embedded/#/?hideEdit=false&hideLoad=false&hideScreenXl=false&hideScreenl=false&hideScreenM=false&hideScreenS=false&hideSpacing=false&hideOutline=false&hideHidden=false&hideMarker=false&hideAnalyzeWidget=false" />
+        <div class="w-full overflow-auto">
+          <input
+            class="w-full break-all text-sm | bg-slate-100 | p-2"
+            readonly
+            value="https://zabefofoon.github.io/mm-embedded/#/?hideEdit=false&hideLoad=false&hideScreenXl=false&hideScreenl=false&hideScreenM=false&hideScreenS=false&hideSpacing=false&hideOutline=false&hideHidden=false&hideMarker=false&hideAnalyzeWidget=false" />
+        </div>
         <br />
-        <EmbeddedOptions />
+        <div class="overflow-auto">
+          <EmbeddedOptions />
+        </div>
       </DocsSection>
       <DocsSection id="Events">
         <h2 class="text-3xl">Events</h2>
-        <EmbeddedEvents />
+        <div class="overflow-auto">
+          <EmbeddedEvents />
+        </div>
       </DocsSection>
+      <div class="flex | mt-20 md:mt-40">
+        <NuxtLink
+          class="flex items-center gap-2 | text-sm"
+          to="/documents/howToUse">
+          <i class="icon icon-arrow-left text-xs"></i>
+          <span>How to use</span>
+        </NuxtLink>
+      </div>
     </main>
   </NuxtLayout>
 </template>

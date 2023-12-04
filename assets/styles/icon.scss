@@ -14,6 +14,12 @@
     background-color: currentColor;
   }
   
+  .icon-arrow-left {
+    @include generateIcon(
+      'https://api.iconify.design/ic/baseline-arrow-back-ios.svg'
+    );
+  }
+
   .icon-arrow-right {
     @include generateIcon(
       'https://api.iconify.design/ic/baseline-arrow-forward-ios.svg'
@@ -148,4 +154,12 @@
   
   .icon-analyze {
     @include generateIcon('https://api.iconify.design/mdi/table-eye.svg')
+  }
+
+  .icon-bars {
+    @include generateIcon('https://api.iconify.design/material-symbols/menu.svg')
+  }
+
+  .icon-close {
+    @include generateIcon('https://api.iconify.design/material-symbols/close.svg')
   }

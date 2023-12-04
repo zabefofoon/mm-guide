@@ -1,5 +1,5 @@
 <template>
-  <aside class="w-60 | border-r">
+  <aside class="hidden md:block w-60 | border-r">
     <nav class="sticky top-14 left-0">
       <ul class="flex flex-col gap-4 | py-8">
         <li v-for="menu in menus" :key="menu.name" class="flex flex-col gap-1">
@@ -11,7 +11,7 @@
               v-for="child in menu.children"
               :key="menu.name"
               :to="child.link">
-              <li class="text-slate-800">
+              <li class="text-slate-800 text-sm">
                 {{ child.name }}
               </li>
             </RouterLink>

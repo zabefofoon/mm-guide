@@ -1,6 +1,6 @@
 <template>
   <footer class="relative | mt-auto py-20 px-10 | bg-slate-950 text-slate-100">
-    <div class="grid grid-cols-4">
+    <div class="grid md:grid-cols-4 gap-8 md:gap-0">
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="font-bold text-xl">

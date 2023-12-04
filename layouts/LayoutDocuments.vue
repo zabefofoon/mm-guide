@@ -3,7 +3,7 @@
   <div class="flex | max-w-[1200px] | mx-auto">
     <DocsMenus />
     <slot />
-    <div class="w-60"></div>
+    <div class="md:w-60"></div>
   </div>
   <Footer />
 </template>
