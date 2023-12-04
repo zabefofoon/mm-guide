@@ -68,7 +68,7 @@
         <th
           class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700">
           <button
-            class="hidden md:inline-block border border-solid border-slate-200 shadow-lg h-fit p-2 bg-white rounded-full">
+            class="inline-block border border-solid border-slate-200 shadow-lg h-fit p-2 bg-white rounded-full">
             <span class="text-lg icon icon-bullet"></span>
           </button>
         </th>
