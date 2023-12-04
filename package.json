@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "vue3-click-away": "^1.2.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -18,5 +19,8 @@
     "sass": "^1.69.5",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "vue3-click-away": "^1.2.4"
   }
 }

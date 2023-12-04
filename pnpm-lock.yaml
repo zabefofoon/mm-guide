@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  vue3-click-away:
+    specifier: ^1.2.4
+    version: 1.2.4
+
 devDependencies:
   '@nuxt/devtools':
     specifier: latest
@@ -6634,6 +6639,10 @@ packages:
       '@vue/devtools-api': 6.5.1
       vue: 3.3.9
     dev: true
+
+  /vue3-click-away@1.2.4:
+    resolution: {integrity: sha512-O9Z2KlvIhJT8OxaFy04eiZE9rc1Mk/bp+70dLok68ko3Kr8AW5dU+j8avSk4GDQu94FllSr4m5ul4BpzlKOw1A==}
+    dev: false
 
   /vue@3.3.9:
     resolution: {integrity: sha512-sy5sLCTR8m6tvUk1/ijri3Yqzgpdsmxgj6n6yl7GXXCXqVbmW2RCXe9atE4cEI6Iv7L89v5f35fZRRr5dChP9w==}

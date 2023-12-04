@@ -18,7 +18,7 @@
         </button>
       </a>
     </nav>
-    <HeaderDrawer v-if="isShowDrawer" />
+    <HeaderDrawer v-if="isShowDrawer" @close="showDrawer(false)" />
   </header>
 </template>
 
