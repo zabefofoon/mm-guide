@@ -21,8 +21,4 @@ import { directive as vClickAway } from 'vue3-click-away'
 const emit = defineEmits<{
   (e: 'close'): void
 }>()
-
-const log = () => {
-  console.log('asdf')
-}
 </script>

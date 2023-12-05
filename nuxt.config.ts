@@ -5,7 +5,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   css: ['~/assets/styles/basic.scss'],
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-gtag'
+  ],
+  gtag: {
+    id: 'GTM-PGND7XDH'
+  },
   build: {
     postcss: {
       postcssOptions: {

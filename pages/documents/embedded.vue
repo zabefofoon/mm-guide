@@ -26,8 +26,28 @@
       </DocsSection>
       <DocsSection id="Events">
         <h2 class="text-3xl">Events</h2>
+        <p class="leading-relaxed">
+          <span class="font-bold">From Iframe</span><br />
+          When using &lt;iframe /&gt;, try checking events with
+          <br />
+          <span class="text-sm bg-slate-200">
+            window.addEventListener('message', console.log)
+          </span>
+        </p>
         <div class="overflow-auto">
-          <EmbeddedEvents />
+          <EmbeddedEventsFromIframe />
+        </div>
+        <br />
+        <p class="leading-relaxed">
+          <span class="font-bold">To Iframe</span><br />
+          You can transmit events through &lt;iframe id="editor" /&gt;.
+          <br />
+          <span class="text-sm bg-slate-200">
+            editor.contentWindow.postMessage(data, '*')
+          </span>
+        </p>
+        <div class="overflow-auto">
+          <EmbeddedEventsToIframe />
         </div>
       </DocsSection>
       <div class="flex | mt-20 md:mt-40">
