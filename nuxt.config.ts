@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     'nuxt-gtag'
   ],
   gtag: {
-    id: 'GTM-PGND7XDH'
+    id: 'G-DW8Q46FP6Q'
   },
   build: {
     postcss: {
