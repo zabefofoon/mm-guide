@@ -24,6 +24,11 @@
               Docs
             </button>
           </NuxtLink>
+          <a href="https://www.buymeacoffee.com/zabefofoon1" 
+             target="_blank"
+             class="text-slate-800 text-center">
+            😭 Buy me coffee
+          </a>
         </div>
       </div>
     </section>
