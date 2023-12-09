@@ -111,10 +111,10 @@ import DocsBreadcrumb from '~/components/DocsBreadcrumb.vue'
 import DocsSection from '~/components/DocsSection.vue'
 
 useSeoMeta({
-  title: 'MM-GUIDE | Introduction',
-  ogTitle: 'MM-GUIDE | Introduction',
-  description: 'MM-GUIDE Introduction',
-  ogDescription: 'MM-GUIDE Introduction',
+  title: 'MM | Introduction',
+  ogTitle: 'MM | Introduction',
+  description: 'MM Introduction',
+  ogDescription: 'MM Introduction',
 })
 </script>
 

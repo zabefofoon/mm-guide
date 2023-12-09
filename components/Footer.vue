@@ -4,9 +4,9 @@
       <div class="flex flex-col gap-4">
         <div>
           <h2 class="font-bold text-xl">
-            <NuxtLink to="/">MM-GUIDE</NuxtLink>
+            <NuxtLink to="/">MM</NuxtLink>
           </h2>
-          <p>Guide for Mark up manager</p>
+          <p>Mark up manager</p>
         </div>
 
         <div class="flex gap-3">
@@ -34,8 +34,6 @@
       <div class="flex flex-col gap-1">
         <p class="text-sm">Contact</p>
         <p class="text-sm">zabefofoon@gmail.com</p>
-        <p class="text-sm">Kakao: zabefofoon</p>
-        <p class="text-sm">Insta: sangwwoo</p>
       </div>
       <div class="flex flex-col gap-1 | relative">
         <p class="text-sm">About</p>

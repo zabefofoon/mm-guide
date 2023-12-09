@@ -3,7 +3,7 @@
     class="sticky top-0 left-0 z-20 | flex items-center | py-2 lg:py-3 px-3 lg:px-10 | bg-white shadow-md">
     <NuxtLink to="/" class="flex items-center lg:gap-2 py-1">
       <Logo />
-      <span class="font-black text-slate-800"> MM-GUIDE </span>
+      <span class="font-black text-slate-800"> MM </span>
     </NuxtLink>
     <button class="md:hidden flex | ml-auto" @click="showDrawer(!isShowDrawer)">
       <i v-if="isShowDrawer" class="icon icon-close text-2xl"></i>

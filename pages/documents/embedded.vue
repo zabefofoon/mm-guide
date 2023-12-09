@@ -67,10 +67,10 @@ import DocsBreadcrumb from '~/components/DocsBreadcrumb.vue'
 import DocsSection from '~/components/DocsSection.vue'
 
 useSeoMeta({
-  title: 'MM-GUIDE | Embedded',
-  ogTitle: 'MM-GUIDE | Embedded',
-  description: 'MM-GUIDE Embedded',
-  ogDescription: 'MM-GUIDE Embedded',
+  title: 'MM | Embedded',
+  ogTitle: 'MM | Embedded',
+  description: 'MM Embedded',
+  ogDescription: 'MM Embedded',
 })
 </script>
 
