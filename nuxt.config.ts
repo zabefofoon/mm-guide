@@ -26,7 +26,16 @@ export default defineNuxtConfig({
     baseURL: '/mm-guide/',
     buildAssetsDir: 'assets',
     head: {
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/mm-guide/favicon.ico' }]
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/mm-guide/favicon.ico' },
+      ],
+      script: [
+        {
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5005353607231126', 
+          crossorigin: 'anonymous',
+          async: true
+        }
+      ]
   },
   },
   routeRules: {
