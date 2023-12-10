@@ -28,16 +28,6 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/mm-guide/favicon.ico' },
-      ],
-      meta: [
-        {name: 'google-adsense-account', content: 'ca-pub-5005353607231126'}
-      ],
-      script: [
-        {
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5005353607231126', 
-          crossorigin: 'anonymous',
-          async: true
-        }
       ]
   },
   },
