@@ -84,6 +84,17 @@ const menus: Menu[] = [
       },
     ],
   },
+  {
+    name: 'Demo',
+    link: '/documents/demo',
+    children: [
+      {
+        name: 'Pages',
+        link: '/documents/demo',
+        id: 'pages',
+      },
+    ],
+  },
 ]
 </script>
 

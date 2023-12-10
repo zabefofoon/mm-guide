@@ -57,6 +57,12 @@
           <i class="icon icon-arrow-left text-xs"></i>
           <span>How to use</span>
         </NuxtLink>
+        <NuxtLink
+          class="flex items-center gap-2 | ml-auto | text-sm"
+          to="/documents/demo">
+          <span>Demo</span>
+          <i class="icon icon-arrow-right text-xs"></i>
+        </NuxtLink>
       </div>
     </main>
   </NuxtLayout>

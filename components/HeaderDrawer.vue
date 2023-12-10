@@ -11,6 +11,9 @@
       <router-link to="/documents/embedded">
         <li class="py-2">Embedded</li>
       </router-link>
+      <router-link to="/documents/demo">
+        <li class="py-2">Demo</li>
+      </router-link>
     </ul>
   </nav>
 </template>
