@@ -1,1 +1,0 @@
-import{f as e,n,g as a,w as _,o as c,b as s,h as r}from"./entry.c8d01a56.js";import{_ as u}from"./nuxt-layout.4a0b826c.js";const f=e({__name:"index",setup(m){return n("/documents/introduction",{replace:!0}),(p,i)=>{const t=r,o=u;return c(),a(o,{name:"layout-documents"},{default:_(()=>[s(t)]),_:1})}}});export{f as default};
