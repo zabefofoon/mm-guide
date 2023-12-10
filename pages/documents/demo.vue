@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="layout-documents">
-    <main class="w-full min-h-screen | pt-8 pb-40 px-4 md:px-12 | border-r">
+    <main class="w-full | pt-8 pb-40 px-4 md:px-12 | border-r">
       <DocsBreadcrumb name="Demo" link="/documents/demo" />
       <DocsSection>
         <p>
