@@ -21,7 +21,7 @@
       <ul class="flex flex-col gap-1">
         <li class="text-sm">
           <a
-            href="https://zabefofoon.github.io/mm-embedded/"
+            href="https://mm-embedded.netlify.app/"
             target="_blank"
             class="underline">
             Get Started

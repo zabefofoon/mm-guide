@@ -15,7 +15,7 @@
       </a>
       |
       <NuxtLink to="/documents" class="text-sm">Docs</NuxtLink>
-      <a href="https://zabefofoon.github.io/mm-embedded/" target="_blank">
+      <a href="https://mm-embedded.netlify.app/" target="_blank">
         <button
           class="bg-slate-800 | px-4 py-1.5 | rounded-full | text-white font-bold text-xs">
           Get Started
