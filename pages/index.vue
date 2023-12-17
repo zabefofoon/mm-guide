@@ -12,7 +12,7 @@
         </p>
         <div
           class="mt-8 md:mt-0 | flex flex-col md:flex-row gap-3 md:gap-4 md:items-center justify-center">
-          <a href="https://mm-embedded.netlify.app/" target="_blank">
+          <a href="https://zabefofoon.github.io/mm-embedded/" target="_blank">
             <button
               class="w-full | bg-slate-800 | px-6 py-2 | rounded-full | text-white font-bold">
               Get Started

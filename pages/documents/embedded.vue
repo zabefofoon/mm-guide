@@ -17,7 +17,7 @@
           <input
             class="w-full break-all text-sm | bg-slate-100 | p-2"
             readonly
-            value="https://mm-embedded.netlify.app/#/?hideEdit=false&hideLoad=false&hideScreenXl=false&hideScreenl=false&hideScreenM=false&hideScreenS=false&hideSpacing=false&hideOutline=false&hideHidden=false&hideMarker=false&hideAnalyzeWidget=false" />
+            value="https://zabefofoon.github.io/mm-embedded/#/?hideEdit=false&hideLoad=false&hideScreenXl=false&hideScreenl=false&hideScreenM=false&hideScreenS=false&hideSpacing=false&hideOutline=false&hideHidden=false&hideMarker=false&hideAnalyzeWidget=false" />
         </div>
         <br />
         <div class="overflow-auto">
