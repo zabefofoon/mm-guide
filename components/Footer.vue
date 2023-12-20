@@ -36,13 +36,11 @@
         <p class="text-sm">zabefofoon@gmail.com</p>
       </div>
       <div class="flex flex-col gap-1 | relative">
-        <p class="text-sm">About</p>
         <p class="flex gap-1 | text-sm">
           <a
-            href="https://zabefofoon.github.io/about/#/"
-            target="_blank"
-            class="underline">
-            Jung Sang Woo
+            href="https://www.buymeacoffee.com/zabefofoon1"
+            target="_blank">
+            😭 Buy me coffee
           </a>
           <a href="https://zabefofoon.github.io/about/#/" target="_blank">
             <i class="icon icon-arrow-right text-xs"></i>
