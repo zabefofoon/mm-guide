@@ -74,8 +74,8 @@ import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 
 useSeoMeta({
-  title: 'MM',
-  ogTitle: 'MM',
+  title: 'MM(Mark up Manager)',
+  ogTitle: 'MM(Mark up Manager)',
   description: 'Mark up manager guide page',
   ogDescription: 'Mark up manager guide page',
 })
