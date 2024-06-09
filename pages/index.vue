@@ -33,7 +33,7 @@
       </div>
     </section>
     <section
-      class="grid grid-cols-1 lg:grid-cols-4 gap-12 | w-fit | mx-auto py-20 px-4 md:px-0 md:py-40 | border-t">
+      class="grid grid-cols-1 lg:grid-cols-4 gap-12 | w-fit | mx-auto py-20 px-4 md:px-8 md:py-40 | border-t">
       <div class="flex flex-col gap-4 lg:max-w-[300px]">
         <h4 class="font-bold text-slate-800">Intuitive</h4>
         <p class="text-slate-500">

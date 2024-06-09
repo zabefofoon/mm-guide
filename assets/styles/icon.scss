@@ -1,165 +1,201 @@
 @mixin generateIcon($src) {
-    -webkit-mask-image: url($src);
-    mask-image: url($src);
-  }
-  
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-    background-color: currentColor;
-  }
-  
-  .icon-arrow-left {
-    @include generateIcon(
-      'https://api.iconify.design/ic/baseline-arrow-back-ios.svg'
-    );
-  }
+  -webkit-mask-image: url($src);
+  mask-image: url($src);
+}
 
-  .icon-arrow-right {
-    @include generateIcon(
-      'https://api.iconify.design/ic/baseline-arrow-forward-ios.svg'
-    );
-  }
-  
-  .icon-arrow-top {
-    @include generateIcon(
-      'https://api.iconify.design/ic/baseline-keyboard-arrow-up.svg'
-    );
-  }
-  
-  .icon-youtube {
-    @include generateIcon('https://api.iconify.design/basil/youtube-solid.svg');
-  }
-  
-  .icon-twitter {
-    @include generateIcon('https://api.iconify.design/mdi/twitter.svg');
-  }
-  
-  .icon-select {
-    @include generateIcon('https://api.iconify.design/material-symbols/gesture-select.svg')
-  }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  background-color: currentColor;
+}
 
-  .icon-plus {
-    @include generateIcon('https://api.iconify.design/mdi/plus.svg')
-  }
+.icon-arrow-left {
+  @include generateIcon(
+    'https://api.iconify.design/ic/baseline-arrow-back-ios.svg'
+  );
+}
 
-  .icon-arrow-up {
-    @include generateIcon('https://api.iconify.design/ph/arrow-up-light.svg')
-  }
+.icon-arrow-right {
+  @include generateIcon(
+    'https://api.iconify.design/ic/baseline-arrow-forward-ios.svg'
+  );
+}
 
-  .icon-child {
-    @include generateIcon('https://api.iconify.design/clarity/child-arrow-line.svg')
-  }
+.icon-arrow-top {
+  @include generateIcon(
+    'https://api.iconify.design/ic/baseline-keyboard-arrow-up.svg'
+  );
+}
 
-  .icon-trash {
-    @include generateIcon('https://api.iconify.design/mdi/trash-outline.svg')
-  }
+.icon-youtube {
+  @include generateIcon('https://api.iconify.design/basil/youtube-solid.svg');
+}
 
-  .icon-copy {
-    @include generateIcon('https://api.iconify.design/material-symbols/copy-all-sharp.svg');
-  }
-  
-  .icon-cut {
-    @include generateIcon('https://api.iconify.design/material-symbols/cut.svg');
-  }
-  
-  .icon-paste {
-    @include generateIcon('https://api.iconify.design/material-symbols/content-paste.svg');
-  }
+.icon-twitter {
+  @include generateIcon('https://api.iconify.design/mdi/twitter.svg');
+}
 
-  .icon-add-widget {
-    @include generateIcon('https://api.iconify.design/solar/widget-add-outline.svg')
-  }
-  
-  .icon-marker {
-    @include generateIcon('https://api.iconify.design/clarity/map-marker-line.svg')
-  }
+.icon-threads {
+  @include generateIcon(
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4' color='%23000'/%3E%3C/svg%3E"
+  );
+}
 
-  .icon-line {
-    @include generateIcon('https://api.iconify.design/uil/line-alt.svg')
-  }
+.icon-select {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/gesture-select.svg'
+  );
+}
 
-  .icon-grid {
-    @include generateIcon('https://api.iconify.design/material-symbols/grid-view.svg');
-  }
+.icon-plus {
+  @include generateIcon('https://api.iconify.design/mdi/plus.svg');
+}
 
-  .icon-add {
-    @include generateIcon('https://api.iconify.design/material-symbols/add-circle-outline.svg');
-  }
+.icon-arrow-up {
+  @include generateIcon('https://api.iconify.design/ph/arrow-up-light.svg');
+}
 
-  .icon-widgets {
-    @include generateIcon('https://api.iconify.design/material-symbols/widgets-outline.svg');
-  }
+.icon-child {
+  @include generateIcon(
+    'https://api.iconify.design/clarity/child-arrow-line.svg'
+  );
+}
 
-  .icon-bullet {
-    @include generateIcon('https://api.iconify.design/zondicons/list-bullet.svg');
-  }
-  
-  .icon-code {
-    @include generateIcon('https://api.iconify.design/material-symbols/code.svg');
-  }
+.icon-trash {
+  @include generateIcon('https://api.iconify.design/mdi/trash-outline.svg');
+}
 
-  .icon-save {
-    @include generateIcon('https://api.iconify.design/mdi/content-save-all-outline.svg');
-  }
-  
-  .icon-upload {
-    @include generateIcon('https://api.iconify.design/material-symbols/file-open-outline.svg')
-  }
-  
-  .icon-screen-xl {
-    @include generateIcon('https://api.iconify.design/mdi/size-xl.svg')
-  }
-  
-  .icon-screen-l {
-    @include generateIcon('https://api.iconify.design/mdi/size-l.svg')
-  }
-  
-  .icon-screen-m {
-    @include generateIcon('https://api.iconify.design/mdi/size-m.svg')
-  }
-  
-  .icon-screen-s {
-    @include generateIcon('https://api.iconify.design/mdi/size-s.svg')
-  }
+.icon-copy {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/copy-all-sharp.svg'
+  );
+}
 
-  .icon-spacing {
-    @include generateIcon('https://api.iconify.design/mdi/format-paragraph-spacing.svg')
-  }
-  
-  .icon-outline {
-    @include generateIcon('https://api.iconify.design/mdi/border-none-variant.svg')
-  }
+.icon-cut {
+  @include generateIcon('https://api.iconify.design/material-symbols/cut.svg');
+}
 
-  .icon-hidden {
-    @include generateIcon('https://api.iconify.design/mdi/file-hidden.svg')
-  }
-  
-  .icon-marker {
-    @include generateIcon('https://api.iconify.design/clarity/map-marker-line.svg')
-  }
+.icon-paste {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/content-paste.svg'
+  );
+}
 
-  .icon-html {
-    @include generateIcon('https://api.iconify.design/material-symbols/html.svg')
-  }
+.icon-add-widget {
+  @include generateIcon(
+    'https://api.iconify.design/solar/widget-add-outline.svg'
+  );
+}
 
-  .icon-json {
-    @include generateIcon('https://api.iconify.design/carbon/json.svg')
-  }
-  
-  .icon-analyze {
-    @include generateIcon('https://api.iconify.design/mdi/table-eye.svg')
-  }
+.icon-marker {
+  @include generateIcon(
+    'https://api.iconify.design/clarity/map-marker-line.svg'
+  );
+}
 
-  .icon-bars {
-    @include generateIcon('https://api.iconify.design/material-symbols/menu.svg')
-  }
+.icon-line {
+  @include generateIcon('https://api.iconify.design/uil/line-alt.svg');
+}
 
-  .icon-close {
-    @include generateIcon('https://api.iconify.design/material-symbols/close.svg')
-  }
+.icon-grid {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/grid-view.svg'
+  );
+}
+
+.icon-add {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/add-circle-outline.svg'
+  );
+}
+
+.icon-widgets {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/widgets-outline.svg'
+  );
+}
+
+.icon-bullet {
+  @include generateIcon('https://api.iconify.design/zondicons/list-bullet.svg');
+}
+
+.icon-code {
+  @include generateIcon('https://api.iconify.design/material-symbols/code.svg');
+}
+
+.icon-save {
+  @include generateIcon(
+    'https://api.iconify.design/mdi/content-save-all-outline.svg'
+  );
+}
+
+.icon-upload {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/file-open-outline.svg'
+  );
+}
+
+.icon-screen-xl {
+  @include generateIcon('https://api.iconify.design/mdi/size-xl.svg');
+}
+
+.icon-screen-l {
+  @include generateIcon('https://api.iconify.design/mdi/size-l.svg');
+}
+
+.icon-screen-m {
+  @include generateIcon('https://api.iconify.design/mdi/size-m.svg');
+}
+
+.icon-screen-s {
+  @include generateIcon('https://api.iconify.design/mdi/size-s.svg');
+}
+
+.icon-spacing {
+  @include generateIcon(
+    'https://api.iconify.design/mdi/format-paragraph-spacing.svg'
+  );
+}
+
+.icon-outline {
+  @include generateIcon(
+    'https://api.iconify.design/mdi/border-none-variant.svg'
+  );
+}
+
+.icon-hidden {
+  @include generateIcon('https://api.iconify.design/mdi/file-hidden.svg');
+}
+
+.icon-marker {
+  @include generateIcon(
+    'https://api.iconify.design/clarity/map-marker-line.svg'
+  );
+}
+
+.icon-html {
+  @include generateIcon('https://api.iconify.design/material-symbols/html.svg');
+}
+
+.icon-json {
+  @include generateIcon('https://api.iconify.design/carbon/json.svg');
+}
+
+.icon-analyze {
+  @include generateIcon('https://api.iconify.design/mdi/table-eye.svg');
+}
+
+.icon-bars {
+  @include generateIcon('https://api.iconify.design/material-symbols/menu.svg');
+}
+
+.icon-close {
+  @include generateIcon(
+    'https://api.iconify.design/material-symbols/close.svg'
+  );
+}

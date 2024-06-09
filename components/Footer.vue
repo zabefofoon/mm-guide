@@ -1,5 +1,5 @@
 <template>
-  <footer class="relative | mt-auto py-20 px-10 | bg-slate-950 text-slate-100">
+  <footer class="relative | mt-auto py-20 px-4 lg:px-10 | bg-slate-950 text-slate-100">
     <div class="grid md:grid-cols-4 gap-8 md:gap-0">
       <div class="flex flex-col gap-4">
         <div>
@@ -10,22 +10,28 @@
         </div>
 
         <div class="flex gap-3">
-          <a class="text-2xl">
+          <NuxtLink
+            target="_blank"
+            to="https://www.youtube.com/watch?v=tbR1realYeo"
+            class="text-2xl">
             <i class="icon icon-youtube"></i>
-          </a>
-          <a class="text-2xl">
-            <i class="icon icon-twitter"></i>
-          </a>
+          </NuxtLink>
+          <NuxtLink
+            target="_blank"
+            to="https://www.threads.net/@sangwwooo/post/C7yzgMehXEg"
+            class="text-2xl">
+            <i class="icon icon-threads"></i>
+          </NuxtLink>
         </div>
       </div>
       <ul class="flex flex-col gap-1">
         <li class="text-sm">
-          <a
-            href="https://zabefofoon.github.io/mm-embedded/"
+          <NuxtLink
+            to="https://zabefofoon.github.io/mm-embedded/"
             target="_blank"
             class="underline">
             Get Started
-          </a>
+          </NuxtLink>
         </li>
         <li class="text-sm">
           <NuxtLink to="/documents" class="underline"> Docs </NuxtLink>
@@ -37,14 +43,14 @@
       </div>
       <div class="flex flex-col gap-1 | relative">
         <p class="flex gap-1 | text-sm">
-          <a
-            href="https://www.buymeacoffee.com/zabefofoon1"
+          <NuxtLink
+            to="https://www.buymeacoffee.com/zabefofoon1"
             target="_blank">
             😭 Buy me coffee
-          </a>
-          <a href="https://zabefofoon.github.io/about/#/" target="_blank">
+          </NuxtLink>
+          <NuxtLink to="https://zabefofoon.github.io/about/#/" target="_blank">
             <i class="icon icon-arrow-right text-xs"></i>
-          </a>
+          </NuxtLink>
         </p>
         <button
           class="absolute right-0 | flex | p-1 | border"
